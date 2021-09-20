@@ -563,7 +563,7 @@ if __name__ == '__main__':
     tu = TuExpanded('uri1')
     print('Done')
     print('2-Creating a conection')
-    tu.connect('31.168.34.108', 'admin', 'TGadmin1')
+    tu.connect('192.168.0.1', 'admin', 'admin')
     print('Done')
     print('3-Retriving the configuration')
     tu.get_startup_config()
